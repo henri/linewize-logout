@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+sudo launchctl -w unload $3/Library/LaunchAgents/XXXXXXXXXXXXXXXXXXX.linewize-logout.plist
+sleep 0.5
+
+sudo launchctl -w load $3/Library/LaunchAgents/XXXXXXXXXXXXXXXXXXX.linewize-logout.plist
+
+exit $?
+
