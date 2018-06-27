@@ -3,7 +3,7 @@
 # Build script
 # Run this script by passing in the reverse domain to use for the output package.
 #
-# Licenced under the GNU GPL
+# Released under the GNU GPL v3 or later
 # Copyright 2018 - Henri Shustak
 # 
 
